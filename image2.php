@@ -9,8 +9,8 @@
 
 <center><img src="image2.jpg" alt="image1" width="800" height="500"></center>
 <center>
-<a href="HOME.html">BACK TO HOME</a> |
-<a href="image3.html">NEXT PHOTO</a>
+<a href="HOME.php">BACK TO HOME</a> |
+<a href="image3.php">NEXT PHOTO</a>
 </center>
 
 <img src="">
