@@ -7,7 +7,7 @@
 <body>
 <h1><center>YA BOSS</center></h1>
 
-<center><img src="image3.jpg" alt="image1" width="600" height="850"></center>
+<center><img src="image3.jpg" alt="image3" width="600" height="850"></center>
 <center>
 <a href="index.php">BACK TO HOME</a>
 </center>
