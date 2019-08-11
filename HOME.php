@@ -11,11 +11,11 @@
 <br>
 <br>
 <br>
-	
-	<center><a href="image1.html"> IMAGE 1 </a><br><</center>
-	<center><a href="image2.html"> IMAGE 2 </a><br></center>
-	<center><a href="image3.html"> IMAGE 3 </a></center>
-	
-
+	<nav><center>
+		<h3><a href="image1.html"> IMAGE 1 </a><br></h3>
+		<h3><a href="image2.html"> IMAGE 2 </a><br></h3>
+		<h3><a href="image3.html"> IMAGE 3 </a></h3>
+	</center></nav>
 </body>
 </html>
+
