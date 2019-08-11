@@ -15,7 +15,7 @@
 		<h3><a href="image1.html"> IMAGE 1 </a></h3><br>
 		<h3><a href="image2.html"> IMAGE 2 </a></h3><br>
 		<h3><a href="image3.html"> IMAGE 3 </a></h3>
-	</center></p>
+	</p></center>
 </body>
 </html>
 
