@@ -10,9 +10,9 @@
 
 <center><img src="image1.jpg" alt="image1" width="800" height="500"></center>
 <center>
-<a href="index.php">BACK TO HOME</a> |
+<a href="home.php">BACK TO HOME</a> |
 <a href="image2.php">NEXT PHOTO</a>
-<br><a href="home.php">LOG OUT</a>
+<br><a href="index.php">LOG OUT</a>
 </center>
 </body>
 </html>
