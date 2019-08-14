@@ -12,7 +12,7 @@
 		<h3><a href="image1.php"> IMAGE 1 </a><br></h3>
 		<h3><a href="image2.php"> IMAGE 2 </a><br></h3>
 		<h3><a href="image3.php"> IMAGE 3 </a></h3>
-		<a href="login page.php">LOG OUT</a>
+		<a href="index.php">LOG OUT</a>
 	</center></nav>
 </body>
 </html>
