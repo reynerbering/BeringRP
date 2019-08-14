@@ -24,7 +24,7 @@
             <td>Password:</td>
             <td><input type="text" size=30 name="userid"></td>
         </tr>
-           <a href="home.html"><input type="submit" onclick="return check(this.form)" value="Login"></a>
+           <a href="home.php"><input type="submit" onclick="return check(this.form)" value="Login"></a>
     </main></center>
     <br>
     <section>
