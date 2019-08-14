@@ -12,6 +12,7 @@
 <center>
 <a href="index.php">BACK TO HOME</a> |
 <a href="image2.php">NEXT PHOTO</a>
+<br><a href="index.php">LOG OUT</a>
 </center>
 </body>
 </html>
