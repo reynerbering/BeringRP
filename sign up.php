@@ -13,7 +13,7 @@
 	CONFIRM EMAIL:<input type="text" size=30 name="userid"><br>
 	PASSWORD:<input type="text" size=30 name="userid"><br>
 	CONFIRM PASSWORD:<input type="text" size=30 name="userid"><br>
-	<a href="WELCOME.php"><input type="submit" onclick="return check(this.form)" value="SIGN UP"></a>
+	<a href="welcome.php"><input type="submit" onclick="return check(this.form)" value="SIGN UP"></a>
 
 	</main>
 	</center>
