@@ -9,6 +9,7 @@ body {
 
 /* Style the header */
 .header {
+  border: 2px solid yellow;
   background:url(https://wallpaperbro.com/img/514005.jpg);
   padding: 80px;
   text-align: center;
