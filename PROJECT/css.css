@@ -21,6 +21,8 @@ body {
   font-size: 40px;
 }
 
+
+
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
@@ -56,14 +58,6 @@ body {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
-
 /* Main column */
 .main {  
   text-align: center; 
@@ -72,16 +66,18 @@ body {
   padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
+/*image, just for this example */
+.img {
   background-color: #aaa;
+  background-image: url(https://ak6.picdn.net/shutterstock/videos/30674026/thumb/1.jpg);
   width: 100%;
-  padding: 20px;
+  padding:100px;
 }
 
 /* Footer */
 .footer {
   padding: 20px;
+  background:url(https://ak6.picdn.net/shutterstock/videos/30674026/thumb/1.jpg);
   text-align: center;
   background: #ddd;
 }
