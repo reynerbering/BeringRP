@@ -70,6 +70,7 @@ body {
 .img {
   background-image: url(https://ak6.picdn.net/shutterstock/videos/30674026/thumb/1.jpg);
   background-repeat: no-repeat;
+  background-size: auto;
   width: 100%;
   padding:100px;
 }
