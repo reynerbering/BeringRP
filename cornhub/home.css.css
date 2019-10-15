@@ -81,17 +81,29 @@ body { font-family: "Josefin Sans", serif }
 }
 
 .main2 {  
-  text-align: center; 
+  text-align: center;
+  font-size:50px; 
   padding: 100px;
   background-color: black;
   background-position: center;
 
+
 }
 .main2 h1{
   color: #f79817;
-  font-size:100px;
   text-shadow: 2px 2px 2px yellow;
   display: inline-block;
+
+}
+
+.container{
+
+  display: block;
+  font-size:10px;
+  background-color: white;
+  padding: 15px 20px;
+  text-align: center;
+
 
 }
 
