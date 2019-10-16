@@ -1,16 +1,20 @@
-@font-face {
-      font-family: "Josefin Sans";
-      src: url("https://fonts.googleapis.com/css?family=Josefin+Sans");
-    }
-    
-body { font-family: "Josefin Sans", serif }
-  
 
-h1{
-	font-size: 90px;
-	color: yellow;
+@font-face {
+    font-family: 'titillium_webregular';
+	src: url('titilliumweb-regular-webfont.woff2') format('woff2'),
+		url('titilliumweb-regular-webfont.woff') format('woff');
+	font-weight: normal;
+    font-style: normal;
 
 }
+
+    
+body { 
+	font-family: 'titillium_webregular',Arial, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+  
 /* Style the header */
 .header {
   border: 2px solid #fa9720;
@@ -76,8 +80,6 @@ h1{
 
 
 .main1 h1 {
-  font-family: "Josefin Sans";
-  src: url("https://fonts.googleapis.com/css?family=Josefin+Sans");
   font-size:100px;
   line-height: 0px;
   color: #f79817;
@@ -94,6 +96,7 @@ h1{
 }
 .main2 h1{
 	font-size: 100px;
+	color: yellow;
 }
 
 
@@ -104,18 +107,21 @@ h1{
 .main2 p{
 	font-size: 15px;
 }
-
-.container{
+.main2container{
 	margin: 10px;
 	padding: 10px 10px 10px 10px;
-  font-size:10px;
+  font-size:30px;
    display: inline-block;
   background-color: #f79817;
   text-align: center;
-
-
 }
-
+.main3 {  
+  text-align: center;
+  font-size:50px;
+  padding: 300px;
+  background-color: white;
+  background-position: center;
+}
 
 /* Footer */
 .footer {
