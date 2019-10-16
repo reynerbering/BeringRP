@@ -6,6 +6,11 @@
 body { font-family: "Josefin Sans", serif }
   
 
+h1{
+	font-size: 90px;
+	color: yellow;
+
+}
 /* Style the header */
 .header {
   border: 2px solid #fa9720;
@@ -82,26 +87,30 @@ body { font-family: "Josefin Sans", serif }
 
 .main2 {  
   text-align: center;
-  font-size:50px; 
-  padding: 100px;
+  font-size:50px;
   background-color: black;
   background-position: center;
 
-
 }
 .main2 h1{
-  color: #f79817;
-  text-shadow: 2px 2px 2px yellow;
-  display: inline-block;
+	font-size: 100px;
+}
 
+
+}
+.main2 h2{
+	font-size: 100px;
+}
+.main2 p{
+	font-size: 15px;
 }
 
 .container{
-
-  display: block;
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
   font-size:10px;
-  background-color: white;
-  padding: 15px 20px;
+   display: inline-block;
+  background-color: #f79817;
   text-align: center;
 
 
@@ -115,6 +124,25 @@ body { font-family: "Josefin Sans", serif }
   background: #f79817;
   border: 2px solid black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
