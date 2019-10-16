@@ -1,0 +1,174 @@
+@font-face {
+      font-family: "Josefin Sans";
+      src: url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+    }
+    
+body { font-family: "Josefin Sans", serif }
+  
+
+h1{
+	font-size: 90px;
+	color: yellow;
+
+}
+/* Style the header */
+.header {
+  border: 2px solid #fa9720;
+  background:url(https://wallpaperbro.com/img/514005.jpg);
+  padding: 100px;
+  text-align: center;
+  color: black;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+}
+
+
+/* Style the navigation bar links */
+.navbar a {
+  
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 25px 15px;
+  text-decoration: none;
+  transition-duration:  1s;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color:yellow;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Main column */
+.main1 {  
+  text-align: center; 
+  padding: 300px;
+  background-image: url(https://i.imgur.com/Mseh4CP.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+
+.main1 h1 {
+  font-family: "Josefin Sans";
+  src: url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+  font-size:100px;
+  line-height: 0px;
+  color: #f79817;
+  text-shadow: 4px 4px 5px black;
+
+}
+
+.main2 {  
+  text-align: center;
+  font-size:50px;
+  background-color: black;
+  background-position: center;
+
+}
+.main2 h1{
+	font-size: 100px;
+}
+
+
+}
+.main2 h2{
+	font-size: 100px;
+}
+.main2 p{
+	font-size: 15px;
+}
+
+.container{
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
+  font-size:10px;
+   display: inline-block;
+  background-color: #f79817;
+  text-align: center;
+
+
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #f79817;
+  border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
