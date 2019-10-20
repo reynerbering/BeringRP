@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'titillium_webregular';
+	src: url('titilliumweb-regular-webfont.woff2') format('woff2'),
+	url('titilliumweb-regular-webfont.woff') format('woff');
+	font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+	text-align: center;
+	background-color: #f79817;
+	font-family: 'titillium_webregular',Arial, sans-serif;
+}
+
+.header {
+  background:url(https://wallpaperbro.com/img/514005.jpg);
+  padding: 100px;
+  color: black;
+}
+
+
+.header h1 {
+  font-size: 40px;
+
+}
+
+
+.m1title{
+	font-size: 100px;
+	font-family: 'bebas_neueregular',Arial, sans-serif;
+
+}
+
+
+.mp1{
+	display: inline-block;
+	width: 1500px;
+	margin: 10px;
+	padding: 10px;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.button
+{
+	font-family: 'bebas_neueregular',Arial, sans-serif;
+	border: 10px solid black;
+	border-radius: 25px;
+	display: inline-block;
+	background-color: black;
+	padding: 10px;
+	font-size: 75px;
+	color: white;
+	border: 5px solid yellow;
+	text-decoration: none;
+
+}
+.button:hover{
+
+	background-color: white;
+	color: black;
+	transition: 1.0s;
+}
