@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Odd-Even Game by Reyner Paul B. Bering Set A</title>
+</head>
+<style>
+body{
+	text-align:center;
+}
+	
+</style>
+<body>
+
+<h1>Odd-Even Game By Bering, Reyner Paul B. Set A</h1><br>
+<h2>Your guess:(type odd or even only)</h2><br>
+
+<form>
+	<input type="text" name="guess">
+	<button>SUBMIT</button>
+</form>
+
+<h2>Dice top value:</h2><br>
+<div class="choose">
+</div>
+
+<h2>Developed by: Bering, Reyner Paul B.</h2>
+
+</body>
+
+<script>
+let guess = "";
+let answer = null;
+
+let answers = [
+"odd",
+"even",
+"Odd",
+"Even"
+"ODD"
+"EVEN"];
+
+let index = Math.floor(Math.random() * answers.length);
+
+if (guess == answers[index]) {
+answer = "You are right" + answers[index];
+} else {
+answer = "Try again " + answers[index];
+}
+alert(answer);
+
+
+
+
+
+</script>
+</html>
